@@ -19,8 +19,6 @@ I'm Mustafa Kaan Demir
 
 <h2 align="left">main.py</h2>
 
----
-
 ```python
 class Attributes(mkdemir):
 	@staticmethod
@@ -48,8 +46,6 @@ class Attributes(mkdemir):
 ```
 
 <h2 align="center">Skills</h2>
-
----
 
 <p align='center'>
     <a href="https://www.python.org" target="_blank" rel="noreferrer">
