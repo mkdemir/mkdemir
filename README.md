@@ -24,25 +24,25 @@ class Attributes(mkdemir):
 	@staticmethod
 	def contact() -> tuple:
 	    twitter = 'twitter.com/mkd3mir'
-        medium = 'medium.com/@mkdemir1'
+            medium = 'medium.com/@mkdemir1'
 
 	    return twitter, medium
 	
 	@staticmethod
 	def life() -> tuple:
-        company = 'Crypttech'
-        work = 'Cyber Security Engineer'
-        langs = ['Turkish', 'English', 'Kazakh']
-        prog_langs = {
-        'expert':   ['python','php','sh','ps'],
-        'intermediate': ['go'],
-        'learning': ['c', 'c++', 'asm']
-        }
-        specialities  = ['Threat Intelligence', 'Incident Response']
-        environnement = ['vscode','vim','visual studio']
-        os = ['windows','arch linux','kali linux']
+            company = 'Crypttech'
+            work = 'Cyber Security Engineer'
+            langs = ['Turkish', 'English', 'Kazakh']
+            prog_langs = {
+             'expert':   ['python','php','sh','ps'],
+             'intermediate': ['go'],
+             'learning': ['c', 'c++', 'asm']
+              }
+            specialities  = ['Threat Intelligence', 'Incident Response']
+            environnement = ['vscode','vim','visual studio']
+            os = ['windows','arch linux','kali linux']
 
-        return company, work, langs, prog_langs, specialities, environnement, os
+            return company, work, langs, prog_langs, specialities, environnement, os
 ```
 
 <h2 align="center">Skills</h2>
