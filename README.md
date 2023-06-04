@@ -40,7 +40,7 @@ class Attributes(mkdemir):
               }
             specialities  = ['Threat Intelligence', 'Incident Response']
             environnement = ['vscode','vim','visual studio']
-            os = ['windows','arch linux','kali linux']
+            os = ['ubuntu','windows','arch linux','kali linux']
 
             return company, work, langs, prog_langs, specialities, environnement, os
 ```
