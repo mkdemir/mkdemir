@@ -1,4 +1,4 @@
-# Hello World
+# Hello World!
 
 <!--
 **mkdemir/mkdemir** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 I'm Mustafa Kaan Demir
 
-<h2 align="left">main.py</h2>
+## 🐍 main.py
 
 ```python
 class Attributes(mkdemir):
@@ -45,7 +45,7 @@ class Attributes(mkdemir):
             return company, work, langs, prog_langs, specialities, environnement, os
 ```
 
-<h2 align="center">Skills</h2>
+## 👨‍💻 Skills
 
 <p align='center'>
     <a href="https://www.python.org" target="_blank" rel="noreferrer">
@@ -74,6 +74,16 @@ class Attributes(mkdemir):
     </a>  
 </p>
 
+## 📊 Status
+
 <p align='center'>
-    <img src='https://github-readme-stats.vercel.app/api?username=mkdemir&show_icons=true&theme=dark')
+    <img src='https://github-readme-stats.vercel.app/api?username=mkdemir&show_icons=true&theme=dark')/>
+</p>
+
+<p align="center">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/mustafakaandemir.png" alt="TryHackMe">
+</p>
+
+<p align='center'>
+    <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=mkdemir&layout=compact&theme=dark')/>
 </p>
