@@ -19,30 +19,45 @@ I'm Mustafa Kaan Demir
 
 ## 🐍 main.py
 
-```python
-class Attributes(mkdemir):
-	@staticmethod
-	def contact() -> tuple:
-	    twitter = 'twitter.com/mkd3mir'
-            medium = 'medium.com/@mkdemir1'
+```go
+package main
 
-	    return twitter, medium
-	
-	@staticmethod
-	def life() -> tuple:
-            company = 'Crypttech'
-            work = 'Cyber Security Engineer'
-            langs = ['Turkish', 'English', 'Kazakh']
-            prog_langs = {
-             'expert':   ['python','php','sh','ps'],
-             'intermediate': ['go'],
-             'learning': ['c', 'c++', 'asm']
-              }
-            specialities  = ['Threat Intelligence', 'Incident Response']
-            environnement = ['vscode','vim','visual studio']
-            os = ['ubuntu','windows','arch linux','kali linux']
+import "fmt"
 
-            return company, work, langs, prog_langs, specialities, environnement, os
+type Attributes struct{}
+
+func (a Attributes) Contact() (string, string) {
+	twitter := "twitter.com/mkd3mir"
+	medium := "medium.com/@mkdemir1"
+	return twitter, medium
+}
+
+func (a Attributes) Life() (string, string, []string, map[string][]string, []string, []string, []string) {
+	company := "Crypttech"
+	work := "Cyber Security Engineer"
+	langs := []string{"Turkish", "English", "Kazakh"}
+	progLangs := map[string][]string{
+		"expert":       {"python", "php", "sh", "ps"},
+		"intermediate": {"go"},
+		"learning":     {"c", "c++", "asm"},
+	}
+	specialities := []string{"Threat Intelligence", "Incident Response"}
+	environment := []string{"vscode", "vim", "visual studio"}
+	os := []string{"ubuntu", "windows", "arch linux", "kali linux"}
+
+	return company, work, langs, progLangs, specialities, environment, os
+}
+
+func main() {
+	attributes := Attributes{}
+
+	twitter, medium := attributes.Contact()
+	fmt.Printf("Twitter: %s\nMedium: %s\n", twitter, medium)
+
+	company, work, langs, progLangs, specialities, environment, os := attributes.Life()
+	fmt.Printf("Company: %s\nWork: %s\nLanguages: %v\nProgramming Languages: %v\nSpecialities: %v\nEnvironment: %v\nOS: %v\n",
+		company, work, langs, progLangs, specialities, environment, os)
+}
 ```
 
 ## 👨‍💻 Skills
