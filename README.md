@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 I'm Mustafa Kaan Demir
 
-## 🐍 main.py
+## main.go
 
 ```go
 package main
